@@ -14,13 +14,13 @@ LAN Zone (192.168.1.0/24): The trusted zone housing the Kali Linux attack machin
 DMZ Zone (10.0.50.0/24): The untrusted zone housing the Metasploitable target.
 
 
-!()[Picture2.png]
+!()[Images/Picture2.png]
 
 2. Vulnerability Assessment (Phase 1)
 Before implementing defense layers, I conducted an initial reconnaissance of the target. An Nmap scan revealed a high-risk profile with numerous open ports, including FTP, SSH, and various backdoors (e.g., bindshell on port 1524), establishing the need for robust network-level filtering.
 
 
-![](Picture1.png) 
+![](Images/Picture2.png) 
 
 3. Firewall Implementation (Phase 2)
 I utilized pfSense to enforce a Default Deny security posture, ensuring that no traffic could move between subnets unless explicitly permitted.
