@@ -50,7 +50,8 @@ ET INFO Possible Kali Linux hostname: Detected an attacker-specific OS joining t
 SURICATA Applayer Mismatch: Identified anomalous protocol behavior in both directions, common during automated scanning or exploit attempts.
 
 
-![](<Images/Screenshot 2026-01-11 192009.png>) ![](<Images/Screenshot 2026-01-11 192513.png>) 
+![](<Images/Screenshot 2026-01-11 192009.png>) 
+![](<Images/Screenshot 2026-01-11 192513.png>) 
 
 
 5. Technical Challenges & Optimization
