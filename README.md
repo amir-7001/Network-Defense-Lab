@@ -29,13 +29,13 @@ Default Deny Evidence
 Initially, all traffic from the Kali node (LAN) to the Metasploitable node (DMZ) was blocked by the firewall, resulting in 100% packet loss.
 
 
-![](Screenshot 2026-01-11 151407.png) 
+![](Images/Screenshot 2026-01-11 151407.png) 
 
 Rule Configuration & Connectivity Proof
 To allow for controlled testing, I created a specific firewall rule on the LAN interface allowing IPv4 ICMP traffic to the OPT1 (DMZ) subnet. After applying this rule, connectivity was verified through a successful five-packet ping exchange.
 
 
-![](Screenshot 2026-01-11 191708.png) ![](Screenshot 2026-01-11 145501.png) 
+![](Images/Screenshot 2026-01-11 191708.png) ![](Images/Screenshot 2026-01-11 145501.png) 
 
 4. Intrusion Detection System (Phase 3)
 To provide deep packet inspection, I deployed Suricata IDS on the LAN interface.
